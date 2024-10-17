@@ -1,7 +1,7 @@
 name: 03 - Actions!
 on:
     push:
-        branches: "features/**"
+        branches: "feature/**"
 jobs:
     checkout_aspnet_docker:
         runs-on: ubuntu-latest
