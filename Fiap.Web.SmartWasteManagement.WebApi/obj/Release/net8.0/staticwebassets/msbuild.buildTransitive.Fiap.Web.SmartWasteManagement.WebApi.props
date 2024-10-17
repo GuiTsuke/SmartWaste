@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Fiap.Web.SmartWasteManagement.WebApi.props" />
+</Project>
