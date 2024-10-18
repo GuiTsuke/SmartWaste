@@ -18,7 +18,7 @@ jobs:
             #   run: ls -la Fiap.Web.SmartWasteManagement
 
             - name: Build ASP.NET Core project
-              run: dotnet build .\Fiap.Web.SmartWasteManagement\Fiap.Web.SmartWasteManagement.sln --configuration Release
+              run: dotnet build .\Fiap.Web.SmartWasteManagement.sln --configuration Release
 
             - name: Build Docker
               uses: docker/build-push-action@v6
@@ -29,7 +29,7 @@ jobs:
               run: |
                 git branch
                 dotnet --version
-                dotnet clean .\Fiap.Web.SmartWasteManagement\Fiap.Web.SmartWasteManagement.sln
+                dotnet clean .\Fiap.Web.SmartWasteManagement.sln
 
 
             
