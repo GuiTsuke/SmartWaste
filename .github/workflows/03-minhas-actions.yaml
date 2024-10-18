@@ -14,16 +14,23 @@ jobs:
               with:
                 dotnet-version: '8.0'
 
-            - name: Build ASP.NET Core project
-              run: dotnet build Fiap.Web.SmartWasteManagement.sln --configuration Release
+            - name: List files in project directory
+              run: ls -la ../../Fiap.Web.SmartWasteManagement/
 
-            - name: Build Docker
-              uses: docker/build-push-action@v6
-              with: 
-                push: false
+
+            # - name: Build ASP.NET Core project
+            #   run: dotnet build Fiap.Web.SmartWasteManagement.sln --configuration Release
+
+            # - name: Build Docker
+            #   uses: docker/build-push-action@v6
+            #   with: 
+            #     push: false
                 
-            - name: Executar Scripts
-              run: |
-                git branch
-                dotnet --version
-                dotnet clean Fiap.Web.SmartWasteManagement.sln
+            # - name: Executar Scripts
+            #   run: |
+            #     git branch
+            #     dotnet --version
+            #     dotnet clean Fiap.Web.SmartWasteManagement.sln
+
+
+            
