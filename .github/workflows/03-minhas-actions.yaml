@@ -15,8 +15,7 @@ jobs:
                 dotnet-version: '8.0'
 
             - name: List files in project directory
-              run: ls -la ../../Fiap.Web.SmartWasteManagement/
-
+              run: ls -la
 
             # - name: Build ASP.NET Core project
             #   run: dotnet build Fiap.Web.SmartWasteManagement.sln --configuration Release
