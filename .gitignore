@@ -1,0 +1,22 @@
+# Arquivos gerados pelo Visual Studio e pelo .NET
+**/bin/
+**/obj/
+.vs/
+**/.vs/
+*.user
+*.suo
+TestResults/
+*.trx
+
+# Configuracoes locais e credenciais (nao versionar)
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+appsettings.*.local.json
+*.pfx
+*.p12
+
+# Arquivos temporarios
+*.tmp
+*.bak
